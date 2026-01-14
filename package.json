@@ -1,0 +1,22 @@
+{
+  "name": "novara",
+  "version": "2.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "inspect": "node app/Novara.mjs"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "github:coinbase/coinbase-wallet-sdk",
+    "@coinbase/onchainkit": "github:coinbase/onchainkit",
+    "@coinbase/cdp-sdk": "github:coinbase/cdp-sdk",
+    "@coinbase/agentkit": "github:coinbase/agentkit",
+    "@base-org/account-sdk": "github:base-org/account-sdk",
+    "@base-org/node": "github:base-org/node",
+    "viem": "^2.21.0",
+    "ethers": "^6.13.4",
+    "web3": "^4.12.1",
+    "axios": "^1.7.9"
+  }
+}
